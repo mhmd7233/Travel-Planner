@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.home{
+  height:650px;
+  background-size:cover;
+  background-position:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:rgb(255, 255, 255);
+  text-align:center;
+}
+
+.home h1{
+  font-size:60px;
+}
+
+.cardsSection{
+  padding:80px 0;
+}
+
+.destinationImg{
+  width:100%;
+  height:250px;
+}
+
+.destinationsPage{
+  min-height:700px;
+  background-size:cover;
+  background-position:center;
+  padding:50px;
+}
+
+.destinationContent{
+  background-color:rgba(255, 255, 255, 0.5);
+  padding:40px;
+}
+
+.aboutPage{
+  min-height:700px;
+  background-size:cover;
+  background-position:center;
+  padding-top:80px;
+}
+
+.aboutBox{
+  width:60%;
+  margin:auto;
+  background-color:white;
+  padding:40px;
+  border-radius:10px;
+}
+
+.formPage{
+  padding:60px;
+}
+
+.formBox{
+  border:1px solid rgb(212, 212, 212);
+  padding:40px;
+}
+
+.footer{
+  background-color:#0066ff;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
