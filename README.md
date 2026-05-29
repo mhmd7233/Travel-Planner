@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# Travel Planner Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About Me
+Name: Mohammad Moussa
+Course: CSCI390 – Web Programming
+Instructor: Kawthar Meslmeine
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+Travel Planner is a responsive frontend web application developed using ReactJS, Bootstrap, and CSS. The purpose of the website is to help users explore different travel destinations around the world through a simple and attractive user interface.
 
-### `npm start`
+The website contains several pages that allow users to navigate easily between sections using React Router. Users can view featured destinations, learn more about the website, and sign in using a simple form.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+* Responsive design for desktop and mobile devices
+* Navigation bar with React Router
+* Home page with featured travel destinations
+* Destinations page displaying popular travel locations
+* About page describing the website
+* Sign In page with a user login form
+* Footer displayed on all pages
+* Reusable React components
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ReactJS
+* Bootstrap 5
+* CSS
+* JavaScript
+* React Router DOM
+* HTML5
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+```text
+src
+│
+├── assets
+│   ├── about.jpg
+│   ├── destinations.jpg
+│   ├── egypt.jpg
+│   ├── home.jpg
+│   ├── istanbul.jpg
+│   └── paris.jpg
+│
+├── components
+│   ├── NavBar.js
+│   └── Footer.js
+│
+├── pages
+│   ├── Home.js
+│   ├── Destinations.js
+│   ├── About.js
+│   └── SignIn.js
+│
+├── styles
+│   └── Style.css
+│
+├── App.js
+└── index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Pages
 
-## Learn More
+### Home Page
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Displays a welcome section with a travel background image and featured destinations such as Egypt, Istanbul, and Paris.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Destinations Page
 
-### Code Splitting
+Shows a list of popular travel destinations with short descriptions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### About Page
 
-### Analyzing the Bundle Size
+Provides information about the Travel Planner website and its purpose.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Sign In Page
 
-### Making a Progressive Web App
+Allows users to enter their email and password through a simple login form.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Responsive Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The website is designed to work on different screen sizes including desktops, tablets, and mobile devices using Bootstrap and CSS media queries.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Setup Instructions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Install Node.js on your computer.
+
+2. Clone the repository:
+
+```bash
+git clone https://github.com/mhmd7233/travel-planner.git
+```
+
+3. Open the project folder:
+
+```bash
+cd travel-planner
+```
+
+4. Install the required dependencies:
+
+```bash
+npm install
+```
+
+5. Install Bootstrap and React Router DOM:
+
+```bash
+npm install bootstrap react-router-dom
+```
+
+6. Start the application:
+
+```bash
+npm start
+```
+
+7. Open your browser and visit:
+
+```text
+http://localhost:3000
+```
+
+The Travel Planner website should now be running locally on your computer.
